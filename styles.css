@@ -146,8 +146,8 @@ body {
 }
 
 .animated-button:active {
-  scale: 0.96;
-  box-shadow: 0 0 0 4px white;
+  scale: 0.95;
+  
 }
 
 .animated-button:hover .circle {
@@ -156,6 +156,10 @@ body {
   opacity: 1;
 }
 /* yha tak he janab */
+
+a {
+  text-decoration: none;
+}
 
 #free1 {
     position: absolute;
@@ -269,3 +273,4 @@ body {
     transform: translateY(10px); /* goes down first */
   }
 }
+
