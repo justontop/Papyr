@@ -6,7 +6,18 @@
 
 body {
     background-color: #0d0d0d;
+    background-image: 
+        radial-gradient(at top left, #1a1a1a, transparent 60%),
+        radial-gradient(at bottom right, #1a1a1a, transparent 60%),
+        conic-gradient(from 180deg at 50% 50%, #0d0d0d, #1a1a1a, #0d0d0d);
+    background-blend-mode: overlay;
     font-family: "Poppins", sans-serif;
+    color: #fff; /* Optional: for better contrast */
+}
+
+::selection {
+  background: #A876F5;
+  color: white;
 }
 
 .homepage {
